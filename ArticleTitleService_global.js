@@ -1,4 +1,3 @@
-<?php
 var ArticleTitleService = function (category) {
     var _this = this;
     this.title = "";
@@ -78,4 +77,3 @@ ArticleTitleService.prototype.convertKanaNumber = function (number) {
     });
     return number;
 };
-?>
